@@ -4,7 +4,9 @@ include_once 'includes/connect.php';
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
+    <title> </title>
+    </head>
+  <body>
       <?php
       $sql="select * from SATFF;";
       $result = mysqli_query($conn,$sql);
@@ -15,6 +17,6 @@ include_once 'includes/connect.php';
       }
       }
       ?>
-    </title>
-  </head>
+  </body>
+  
 </html>
