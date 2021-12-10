@@ -21,4 +21,6 @@ echo"connected successfully";
 <title>View</title>
 </head>
 <body>
-	
+	<h1><center>Mom's Baby World<center></h1>
+</body>
+</html>
