@@ -1,3 +1,19 @@
+<? php
+servename = "localhost";
+$username = "username";
+&password = "password";
+
+//creating connection
+$conn=new mysqli($servername, $username, $password);
+
+//checking connection
+if ($conn->connect_error)
+{
+	die ("connection failed : ".$conn->connect_error);
+}
+echo"connected successfully";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
