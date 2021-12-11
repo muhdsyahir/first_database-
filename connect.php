@@ -1,14 +1,16 @@
-
 <?php
-$url = parse_url(getenv("postgres://ujecjnqievwhin:0f8b457958dd412343862aa5769864ce7ca29292816c0bb389c488488c23fef0@ec2-34-233-214-228.compute-1.amazonaws.com:5432/djf5r710q1slb"));
+$dbname = "ec2-3-217-216-13.compute-1.amazonaws.com";
+$user = "glhveawjzrngzr";
+&password = "4ff4096802faba2816c39e83dee75eb02d759800428ca6583e3f7500b044ff25";
+$dbname ="df16sa0f980p0i";
 
 //creating connection
-//$conn=new mysqli($servername, $username, $password,$dbname);
+$conn=new mysqli($servername, $username, $password,$dbname);
 
 //checking connection
-//if ($conn->connect_error)
-//{
-	//die ("connection failed : ".$conn->connect_error);
-//}
-//echo"connected successfully";
+if ($conn->connect_error)
+{
+	die ("connection failed : ".$conn->connect_error);
+}
+echo"connected successfully";
 ?>
