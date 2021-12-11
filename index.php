@@ -9,7 +9,7 @@ include_once 'connect.php';
   <body>
     <h1>hello</h1>
       <?php
-      $db="select * from SATFF;";
+      $url="select * from SATFF;";
       $result = mysqli_query($conn,$sql);
       $resultcheck=mysqli_num_rows(result);
       if ($resultcheck>0){
