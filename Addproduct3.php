@@ -15,18 +15,18 @@
 }
 </style>
 <h1><center>Mom's Baby World<center></h1>
-<form action="connect.php" method ="post">
+<form action="insertStock.php" method="post">
 <div style="background-color:#95afc0">
 	<div class="container">
 		<div class="row">
 		<div class="col-md-8 pt-2 pb-2" >
 				<a class="pl-3" style="color:black" href="view.php">View Product</a>
-				<a class="pl-3 pr-3 " style="color:black" href="index.php">Add Product</a>
-				<a class="pl-3 pr-3" style="color:black" href="videoAdmin.php">Edit Product</a>
-				<a class="active-menu2 pl-3 pr-3" style="color:black" href="staffAdmin.php">Delete Product</a>
+				<a class="pl-3 " style="color:black" href="AddProduct.php">Add Product</a>
+				<a class="pl-3" style="color:black" href="ChooseItemEditproduct.php">Edit Product</a>
+				<a class="pl-3" style="color:black" href="deleteproduct.php">Delete Product</a>
 			</div>
 			<div class="col-md-4 pt-2 pb-2" style="float:right; padding-left: 140px;" >
-				<a href="../logout.php" style="color:white"><button type="button" button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-out"></span>Log Out</button></a>    
+				<a href="logout.php" style="color:white"><button type="button" button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-out"></span>Log Out</button></a>    
 			</div>
 		</div>
 	</div>
@@ -40,44 +40,44 @@
 		<blockquote class="blockquote mb-0">
 			<div class="form-row">
 				<div class="form-group col-md-6">
-					<label for="id" style="color:black;font-size:16px;"><b>Product ID:</b></label>
-					<input type="text" class="form-control" name="prodID" id="prodID" required autocomplete="off">
+					<label for="prodid" style="color:black;font-size:16px;"><b>Product ID:</b></label>
+					<input type="text" class="form-control" name="prodid" id="prodid" required autocomplete="off">
 				</div>
 				<div class="form-group col-md-6">
-					<label for="name" style="color:black;font-size:16px;"><b>Product Name:</b></label>
-					<input type="text" class="form-control" name="prodName" id="prodName" required autocomplete="off">
+					<label for="prodname" style="color:black;font-size:16px;"><b>Product Name:</b></label>
+					<input type="text" class="form-control" name="Prodname" id="prodname" required autocomplete="off">
 				</div>	
 			</div>
 			
 			<div class="form-row">
 				<div class="form-group col-md-6">
-					<label for="size" style="color:black;font-size:16px;"><b>Size:</b></label>
-					<select class="form-control " name="prodSize" id="prodSize">
-						<option value="years" >2-5 years </option>
-						<option value="months" >0-6 months </option>
+					<label for="prodsize" style="color:black;font-size:16px;"><b>Size:</b></label>
+					<select class="form-control " name="prodsize" id="prodsize">  
+						<option value="" >Choose </option>
+						<option value="2-5" >2-5 years </option>
+						<option value="0-6" >0-6 months </option>
 					</select>
 				</div>
 				<div class="form-group col-md-6">
-					<label for="qty" style="color:black;font-size:16px;"><b>Quantity:</b></label>
-					<input type="text" class="form-control" name="prodQty" id="prodQty" required autocomplete="off">
+					<label for="prodqty" style="color:black;font-size:16px;"><b>Quantity:</b></label>
+					<input type="text" class="form-control" name="prodqty" id="prodqty" required autocomplete="off">
 				</div>	
 			</div>
 			
 			<div class="form-row">
 				<div class="form-group col-md-6">
-					<label for="desc" style="color:black;font-size:16px;"><b>Description:</b></label>
-					<textarea class="form-control" name="prodDesc" id="prodDesc" rows="4" cols="50" required autocomplete="off"></textarea>
+					<label for="proddesc" style="color:black;font-size:16px;"><b>Description:</b></label>
+					<textarea class="form-control" name="proddesc" id="proddesc" rows="4" cols="50" required autocomplete="off"></textarea>
 				</div>
 				<div class="form-group col-md-6">
-					<label for="price" style="color:black;font-size:16px;"><b> Price:</b></label>
-					<input type="text" class="form-control" name="prodPrice" id="prodPrice" required autocomplete="off">
+					<label for="prodprice" style="color:black;font-size:16px;"><b> Price:</b></label>
+					<input type="text" class="form-control" name="prodprice" id="prodprice" required autocomplete="off">
 				</div></div>
 				</div>	
 			</div>
 		</blockquote>
 		<div class="center">
-					<style="color:white"><button class="btn-1"><h7>Save</h7></button></a></div>
-					<input type="submit" class = "btn-1"
+					<a href="../logout.php" style="color:white"><button class="btn-1"><h7>Save</h7></button></a></div>
 	</div>
 </div>
 </div>
