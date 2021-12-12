@@ -15,7 +15,7 @@
 }
 </style>
 <h1><center>Mom's Baby World<center></h1>
-<form action="insertStock.php" method="post">
+<form action="connect.php" method="post">
 <div style="background-color:#95afc0">
 	<div class="container">
 		<div class="row">
