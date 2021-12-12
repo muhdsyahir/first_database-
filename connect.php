@@ -13,7 +13,7 @@ if ($conn ->connect_error){
 else{
 	$stmt=$conn->prepare("insert into registration(prodID,prodSize,prodQty,prodName,prodDescription,prodPrice)
 values (?,?,?,?,?,?)");
-	$stmt->bind_param("iiissi",$prodID,$prodSize,$prodQty,$prodName,$prodDescription,$prodPrice);
+	$stmt->bind_param("iiissi",$prodid,$prodsize,$prodqty,$prodname,$proddescription,$prodprice);
 
 $stmt->execute();
 echo"add successful";
