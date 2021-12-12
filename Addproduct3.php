@@ -79,7 +79,8 @@
 			</div>
 		</blockquote>
 		<div class="center">
-					<a href="../logout.php" style="color:white"><button class="btn-1"><h7>Save</h7></button></a></div>
+					<style="color:white"><button class="btn-1"><h7>Save</h7></button></a></div>
+					<input type="submit" class = "btn-1"
 	</div>
 </div>
 </div>
