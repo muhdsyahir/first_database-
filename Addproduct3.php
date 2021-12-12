@@ -26,7 +26,9 @@
 				<a class="pl-3" style="color:black" href="deleteproduct.php">Delete Product</a>
 			</div>
 			<div class="col-md-4 pt-2 pb-2" style="float:right; padding-left: 140px;" >
-				<a href="logout.php" style="color:white"><button type="button" button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-out"></span>Log Out</button></a>    
+				<a href="logout.php" style="color:white"><button type="button" button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-out"></span>Log Out</button></a>
+				<input type="submit" class = "btn-1"
+	</div>
 			</div>
 		</div>
 	</div>
